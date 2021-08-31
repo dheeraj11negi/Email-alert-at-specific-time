@@ -17,7 +17,7 @@ def sendMail():
     logging.info("url is  -----")
  
     sender_email="samsalerts@solytics-partners.com"
-    password="Solytics@2021"
+    password=""
     Subject="Daily-Log-Files"
 
     reciever_email=["prithivinath.p@solytics-partners.com","tauseef.sagari@solytics-partners.com","gaurav.kumar@solytics-partners.com","dheeraj.negi@solytics-partners.com",'prateek.rajvats@solytics-partners.com','joginder@solytics-partners.com']
@@ -32,7 +32,7 @@ def sendMail():
     '''smtp_server='smtp.office365.com'
     port=465'''
 
-    servername="smtp.outlook.office365.com"
+    servername=""
     port=587
 
 
